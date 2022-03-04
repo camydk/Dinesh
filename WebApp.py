@@ -9,7 +9,7 @@ class Dinesh(BaseModel):
 nsit=FastAPI()
 
 @nsit.get("/{Name:path}")
-def guna(Name:str):
+def Dinesh(Name:str):
      return{"Narasu's Sarathy Institute Of Technology":Name}
 
 @nsit.post("/item")
